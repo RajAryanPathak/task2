@@ -1,0 +1,14 @@
+<div class="flex-container">
+
+    <app-post [class]="card"
+      *ngFor="let post of posts"
+      [img]="post.img"
+      [caption]="post.caption"
+      [like]="post.like"
+    >
+
+    </app-post>
+
+
+
+</div>

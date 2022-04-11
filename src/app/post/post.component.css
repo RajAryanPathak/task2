@@ -1,0 +1,38 @@
+
+
+img {
+  max-width: 80%;
+  height: 80%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid yellow; */
+    height: 45px;
+
+    /* padding: 12px 16px; */
+
+}
+.like
+{
+    text-align: center;
+    height:100px;
+    line-height: 140px;
+    width: 30%;
+
+}
+
+.likebtn
+{
+  height:45px;
+}
+
+.caption
+{
+    width: 70%;
+    height:100px;
+    text-align:justify;
+    font-size: 22px;
+    margin-right:10%;
+}

@@ -1,0 +1,13 @@
+div
+{
+  height:250px;
+  width:250px;
+  border:2px solid black;
+}
+.origanl {
+  background-color: #f2f2f2;
+}
+
+.red {
+  background-color: red;
+}

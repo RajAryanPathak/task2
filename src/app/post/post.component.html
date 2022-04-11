@@ -1,0 +1,8 @@
+
+  <img [src]="img" alt="Avatar" style="width:100%">
+  <div class="container">
+    <div (click)="like=!like" class="like"><img *ngIf="like"  class="likebtn" [src]="like_img" >
+      <img *ngIf="!like"  class="likebtn" [src]="un_like_img" >
+    </div>
+    <div class="caption"> <p>{{ caption }}</p> </div>
+  </div>
